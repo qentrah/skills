@@ -1,0 +1,35 @@
+{
+  "name": "@qentrah/skills",
+  "version": "0.1.0",
+  "description": "Install canonical Qentrah agent skills from their public GitHub repositories.",
+  "license": "MIT",
+  "author": "Ahmed Mansour <https://github.com/Up-to-code>",
+  "homepage": "https://github.com/qentrah/skills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qentrah/skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qentrah/skills/issues"
+  },
+  "keywords": [
+    "agent-skills",
+    "ai-agents",
+    "qentrah",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "qentrah-skills": "bin/qentrah-skills.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
