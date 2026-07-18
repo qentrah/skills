@@ -1,6 +1,6 @@
 {
   "name": "@qentrah/skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Install canonical Qentrah agent skills from their public GitHub repositories.",
   "license": "MIT",
   "author": "Ahmed Mansour <https://github.com/Up-to-code>",
@@ -20,6 +20,9 @@
   ],
   "engines": {
     "node": ">=20"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.7.0"
   },
   "bin": {
     "qentrah-skills": "bin/qentrah-skills.mjs"

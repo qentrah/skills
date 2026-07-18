@@ -5,12 +5,21 @@ Install canonical, public Qentrah skills directly from their GitHub repositories
 ## Usage
 
 ```bash
+npx @qentrah/skills
 npx @qentrah/skills list
 npx @qentrah/skills add architecture-guardian
 npx @qentrah/skills add code-review ui-implementation
 ```
 
+Running the CLI without a skill name opens an interactive multi-select. Use the arrow keys to navigate, `Space` to select multiple skills, and `Enter` to continue.
+
 By default, a skill is installed in `.agents/skills/<skill-name>` in the current project. Use `--cwd <directory>` to choose another project or `--force` to replace an existing installation.
+
+For non-interactive automation:
+
+```bash
+npx @qentrah/skills add --all --yes
+```
 
 ## Available skills
 
