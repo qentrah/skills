@@ -38,3 +38,7 @@ Every skill has its own public GitHub repository under [Qentrah](https://github.
 ## License
 
 MIT.
+
+## Project links
+
+[Source](https://github.com/qentrah/skills) · [Issues](https://github.com/qentrah/skills/issues) · [Public project directory](https://github.com/qentrah/.github/blob/main/profile/PROJECTS.md)
